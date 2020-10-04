@@ -1,0 +1,18 @@
+<div class="container font margen-top">
+  <h1>Vocalistas</h1>
+  <hr>
+  <div class="row">
+    <div class="card-columns fast faceIn">
+      <div class="card" *ngFor="let voce of voceMetal; let i=index">
+        <img src="{{voce.img}}" class="card-img-top img-tamaño" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{voce.nombre}}</h5>
+          <p class="card-text texto-tarjeta">{{voce.bio}}</p>
+          <p class="card-text"><small class="text-muted">Talla <{{ voce.talla }}></small></p>
+          <button type="button" class="btn btn-outline-danger btn-block">Ver más...</button>
+        </div>
+      </div>
+    </div>
+    <button class="btn-danger btn-subir" (click)="subir()">↑</button>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.jumboEstilo{
+    background-color: #000000;
+    color: #fefae0;
+    position: relative;
+    
+}
+.jumboEstilo::before{
+    content: "";
+    position: absolute;
+    width: 89%;
+    height: 20px;
+    bottom: -55px;
+    left: 5%;
+    border-radius: 50%;
+    background:rgba(0, 0, 0, 0.2);
+    z-index: -10;
+    filter: blur(8px);
+}
