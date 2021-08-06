@@ -4,7 +4,17 @@
 
 export const environment = {
   production: false,
-  url: "https://shopping-cart-4b0b8-default-rtdb.firebaseio.com/"
+  url: "https://shopping-cart-4b0b8-default-rtdb.firebaseio.com/",
+  firebase: {
+    apiKey: "AIzaSyBj_N2DmHzkofTr5AXw0f2Km8YNOOALMGw",
+    authDomain: "shopping-cart-4b0b8.firebaseapp.com",
+    databaseURL: "https://shopping-cart-4b0b8-default-rtdb.firebaseio.com",
+    projectId: "shopping-cart-4b0b8",
+    storageBucket: "shopping-cart-4b0b8.appspot.com",
+    messagingSenderId: "676286660977",
+    appId: "1:676286660977:web:5ce903222849af797eb6d0",
+    measurementId: "G-FRK3QLG8FQ"
+  }
 };
 
 /*

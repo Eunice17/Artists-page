@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "shopping-cart-4b0b8": {
+      "hosting": {
+        "proyectTutorial2Rutas": [
+          "shopping-cart-4b0b8"
+        ]
+      }
+    }
+  }
+}

@@ -127,6 +127,10 @@
               "devServerTarget": "proyectTutorial2Rutas:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
