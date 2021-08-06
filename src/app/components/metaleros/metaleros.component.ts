@@ -8,18 +8,18 @@ import { metalerosService } from "../../metaleros.service";
   ]
 })
 export class MetalerosComponent implements OnInit {
-  voceMetal:any[];
-  constructor(private metaleros:metalerosService) { }
+  voceMetal: any[];
+  constructor(private metaleros: metalerosService) { }
 
   ngOnInit(): void {
-    this.metaleros.getMetaleros().subscribe((value) =>{
-      console.log(value);
+    this.metaleros.getMetaleros().subscribe((value) => {
+      this.voceMetal = value;
     });
   }
-  subir(){
-    const up=document.documentElement.scrollTop;
-    if(up>0){
-      window.scrollTo(0,0);
+  subir() {
+    const up = document.documentElement.scrollTop;
+    if (up > 0) {
+      window.scrollTo(0, 0);
     }
   }
 }
