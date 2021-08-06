@@ -12,7 +12,9 @@ export class MetalerosComponent implements OnInit {
   constructor(private metaleros:metalerosService) { }
 
   ngOnInit(): void {
-    this.voceMetal=this.metaleros.getMetaleros();
+    this.metaleros.getMetaleros().subscribe((value) =>{
+      console.log(value);
+    });
   }
   subir(){
     const up=document.documentElement.scrollTop;

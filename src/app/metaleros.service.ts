@@ -9,7 +9,7 @@ export class metalerosService {
   constructor(private http: HttpClient) { }
 
   url = environment.url;
-  private getMetaleros(): Observable<any> {
+  public getMetaleros(): Observable<any> {
     return this.http.get(`${this.url}/artistas`);
   }
 }

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: "http://localhost:3000"
+  url: "https://shopping-cart-4b0b8-default-rtdb.firebaseio.com/"
 };
 
 /*
