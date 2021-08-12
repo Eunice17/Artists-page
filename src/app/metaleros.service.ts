@@ -13,4 +13,7 @@ export class metalerosService {
   public getMetaleros(): Observable<any> {
     return this.http.get(`${this.url}/artistas.json`);
   }
+  public getUser(): Observable<any> {
+    return this.http.get(`${this.url}/users.json`)
+  }
 }

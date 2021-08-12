@@ -15,6 +15,7 @@ import { APP_ROUTING } from "./app.routes";
 import { MetaleroComponent } from './components/metalero/metalero.component';
 import { environment } from 'src/environments/environment';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     AboutComponent,
     MetalerosComponent,
-    MetaleroComponent
+    MetaleroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

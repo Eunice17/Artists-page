@@ -1,0 +1,11 @@
+.container-top{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.row-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
